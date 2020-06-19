@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(arr)
 array = []
-arr.each {|name| array.push badge_maker(name)}
+arr.each {|name| array << badge_maker(name)}
 return array
 end
 
